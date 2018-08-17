@@ -1,0 +1,196 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+@media screen and (max-width: 767px) {
+  .natgeo__menu-list {
+    display: none; } }
+
+@media screen and (min-width: 768px) {
+  .natgeo__menu-list {
+    display: none; }
+  .natgeo__block_foot {
+    display: flex;
+    flex-direction: row; }
+  .natgeo__button {
+    margin-top: 50px;
+    width: 800px; }
+  .natgeo__sub-footer {
+    display: flex;
+    justify-content: space-around; }
+  .natgeo__footer-subtitle {
+    border-left: 1px #AAA solid;
+    padding-left: 10px; }
+  .natgeo__border_foot {
+    padding-left: 20px;
+    border-left: 1px #AAA solid; }
+    .natgeo__border_foot div {
+      display: flex;
+      flex-direction: row; }
+  .natgeo__item {
+    display: flex;
+    flex-direction: row; }
+    .natgeo__item div {
+      padding-left: 10px; }
+  .natgeo__container {
+    width: 1000px;
+    margin: 100px auto; } }
+
+@media screen and (min-width: 1024px) {
+  .natgeo__block_foot {
+    display: flex;
+    flex-direction: row; }
+  .natgeo__super_block {
+    display: flex; }
+  .natgeo__footer-block {
+    flex: 1; }
+  .natgeo__sub-footer {
+    display: flex;
+    justify-content: space-between; }
+  .natgeo .fa-bars {
+    display: none; }
+  .natgeo__menu-list {
+    display: flex;
+    list-style: none; }
+    .natgeo__menu-list li {
+      padding: 40px 80px 0 5px; }
+    .natgeo__menu-list a {
+      padding-left: 30px;
+      border-left: 1px #fecd2f solid;
+      text-decoration: none;
+      color: #acacad; } }
+
+.natgeo__header {
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px #CCC solid; }
+
+.natgeo__header-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px; }
+
+.fa-bars {
+  font-size: 30px;
+  padding: 20px 10px; }
+
+.natgeo__title {
+  font-family: "Gill Sans", "Century Gothic", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 30px;
+  font-weight: lighter; }
+
+.natgeo__subtitle {
+  font-size: 23px;
+  font-family: "Gill Sans", "Century Gothic", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: lighter; }
+
+.natgeo__sub-subtitle {
+  font-weight: bold;
+  font-family: "Georgia", "Palatino", serif; }
+
+.natgeo__link {
+  color: #000;
+  font-family: monospace;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 2px #fecd2f solid; }
+
+.natgeo__text-block {
+  font-family: "Gill Sans", "Century Gothic", sans-serif;
+  font-size: 14px;
+  padding-left: 10px;
+  border-left: 1px #CCC solid; }
+
+.natgeo__main-img {
+  padding-top: 20px;
+  width: 100%; }
+
+.natgeo__container {
+  margin: 100px auto; }
+
+.natgeo__item {
+  width: 100%; }
+
+.natgeo__button {
+  text-transform: uppercase;
+  border: 2px #333333 solid;
+  width: 100%;
+  background-color: #fecd2f;
+  padding: 5px 0; }
+
+.natgeo__button_foot {
+  text-transform: uppercase;
+  border: 2px #333333 solid;
+  width: 20%;
+  background-color: #fecd2f;
+  padding: 5px 0; }
+
+.natgeo__link_foot {
+  color: #FFF;
+  font-family: monospace;
+  font-size: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+  border-bottom: 2px #fecd2f solid; }
+
+.natgeo__footer {
+  color: #FFF;
+  background-color: #333333;
+  padding-top: 30px; }
+
+.natgeo__footer-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0; }
+
+.natgeo__sub-footer {
+  color: #000;
+  background-color: #dddddd;
+  padding: 50px 15px; }
+
+.natgeo__footer-text {
+  text-align: center; }
+
+.natgeo__icon-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.natgeo__footer-title {
+  font-size: 30px;
+  font-family: "Gill Sans", "Century Gothic", sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: center; }
+
+.natgeo__footer {
+  margin: 0 auto; }
+
+.fa-twitter {
+  color: #1da1f2;
+  padding: 5px;
+  font-size: 30px; }
+
+.fa-facebook {
+  color: #425499;
+  padding: 5px;
+  font-size: 30px; }
+
+.fa-instagram {
+  color: #577da5;
+  padding: 5px;
+  font-size: 30px; }
+
+body {
+  margin: 0;
+  padding: 0; }

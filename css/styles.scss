@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+$yellow-color: #fecd2f;
+$dark-gray-color: #333333;
+$light-gray-color: #aaaaaa;
+$title-fonts: 'Gill Sans', 'Century Gothic', sans-serif;
+$fancy-fonts: 'Georgia', 'Palatino', serif;
+
+@import "mediaq.scss";
+@import "head.scss";
+@import "content.scss";
+@import "foot.scss";
+
+body{
+  margin: 0;
+  padding: 0;
+}
